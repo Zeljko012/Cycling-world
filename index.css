@@ -20,9 +20,11 @@ body  {
     font-size: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     margin-right: 200px;
     margin-left: 200px;
+    color: #000;
+    
 }
 
 
@@ -30,10 +32,10 @@ body  {
 .title p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     margin-right: 200px;
     margin-left: 200px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .img2 img {
@@ -57,7 +59,7 @@ body  {
     margin-right: 200px;
     margin-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .type {
@@ -269,6 +271,14 @@ h1{
     margin: 0 0 2rem 0;
     }
 }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ .title h1 {font-size: 30px; margin-right: 10px; margin-left: 10px;}  }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */  }
+
 
 
 
