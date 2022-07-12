@@ -276,7 +276,7 @@ h1{
     }
 }
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ .title h1 {font-size: 35px; margin-right: 30px; margin-left: 30px; color: #000;} .title p {font-size: 15px; margin-right: 30px; margin-left: 30px} .subtitle h1 {font-size: 35px; margin-right: 30px; margin-left: 30px; color: #000;} .subtitle p {font-size: 15px; margin-right: 30px; margin-left: 30px} .type h1 {font-size: 35px; margin-left: 30px; margin-right: 30px; color: #000;}   }
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ .title h1 {font-size: 40px; margin-right: 30px; margin-left: 30px; color: #000;} .title p {font-size: 15px; margin-right: 30px; margin-left: 30px} .subtitle h1 {font-size: 40px; margin-right: 30px; margin-left: 30px; color: #000;} .subtitle p {font-size: 15px; margin-right: 30px; margin-left: 30px} .type h1 {font-size: 40px; margin-left: 30px; margin-right: 30px; color: #000;}   }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
